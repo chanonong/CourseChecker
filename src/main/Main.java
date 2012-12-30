@@ -29,7 +29,7 @@ public class Main {
 					String[] tmp = {cid,secid};
 					data.add(tmp);
 				} catch (Exception e) {
-					System.err.println("not a valid course/section id");
+					System.err.println("not valid course/section id");
 					break;
 				}
 			} 
